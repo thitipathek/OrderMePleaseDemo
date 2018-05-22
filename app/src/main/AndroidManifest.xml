@@ -28,7 +28,8 @@
         <activity android:name=".food_data" />
         <activity android:name=".Food_detail" />
         <activity android:name=".FoodList" />
-        <activity android:name=".Cart"></activity>
+        <activity android:name=".Cart" />
+        <activity android:name=".OrderStatus" />
     </application>
 
 </manifest>
