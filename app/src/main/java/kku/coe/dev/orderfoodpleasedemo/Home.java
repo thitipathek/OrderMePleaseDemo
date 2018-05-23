@@ -27,6 +27,7 @@ import com.squareup.picasso.Picasso;
 import kku.coe.dev.orderfoodpleasedemo.Common.Common;
 import kku.coe.dev.orderfoodpleasedemo.Interface.ItemClickListener;
 import kku.coe.dev.orderfoodpleasedemo.Model.Category;
+import kku.coe.dev.orderfoodpleasedemo.Service.ListenOrder;
 import kku.coe.dev.orderfoodpleasedemo.ViewHolder.MenuViewHolder;
 
 public class Home extends AppCompatActivity
@@ -82,6 +83,10 @@ public class Home extends AppCompatActivity
         recyler_menu.setLayoutManager(layoutManager);
 
         LoadMenu();
+
+        //Services
+        //Intent service = new Intent(Home.this, ListenOrder.class);
+        //startService(service);
 
     }
     private void LoadMenu() {

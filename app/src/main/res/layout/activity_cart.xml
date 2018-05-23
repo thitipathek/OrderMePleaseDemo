@@ -59,8 +59,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:text="Order"
-                android:textColor="@android:color/white"
-                 />
+                android:textColor="@android:color/black" />
             --app:buttonColor="@color/cardview_dark_background"
             app:cornerRadius="4dp"
             app:shadowColor="@android:color/black"

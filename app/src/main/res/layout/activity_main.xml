@@ -16,9 +16,9 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            app:srcCompat="@drawable/logo3" />
+            android:layout_width="275dp"
+            android:layout_height="275dp"
+            app:srcCompat="@drawable/ggwp" />
 
         <LinearLayout
             android:layout_width="match_parent"
